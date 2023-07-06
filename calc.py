@@ -1,0 +1,16 @@
+print("Welcome to my calculator.")
+print("please select from the following ops")
+print("1) for sum, 2) for multiply")
+choice=int(input())
+if choice == 1:
+    print("enter first number")
+    x=int(input())
+    print("enter second number")
+    y=int(input())
+    print(x + y)
+if choice == 2:
+    print("enter first number")
+    x=int(input())
+    print("enter second number")
+    y=int(input())
+    print(x * y)
